@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt - br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Notas</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Registro de Notas</h1>
+    <br>
+
+    <div id="principal">
+        <div id="form-container">
+            <input type="text" id="aluno" placeholder="Nome do Aluno">
+            <input type="number" id="nota" placeholder="Nota">
+            <button onclick="inserirAluno()">Inserir Aluno</button>
+        </div>
+
+        <br>
+        <br>
+
+        <div id="tabela-container" style="display: none;">
+            <table id="tabela">
+                <thead>
+                    <tr>
+                        <th>Aluno</th>
+                        <th>Nota</th>
+                    </tr>
+                </thead>
+                <tbody id="corpo-tabela">
+                
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

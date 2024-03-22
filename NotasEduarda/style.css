@@ -1,0 +1,41 @@
+h1{
+    font-size: 40px;
+    margin-left: 37%;
+    margin-top: 7%;
+    color: #86004af5;
+}
+
+#principal{
+    margin-left: 33%;
+}
+
+#tabela {
+    border-collapse: collapse;
+    width: 400px;
+    margin-left: 5%;
+    
+}
+#form-container{
+    margin-left: 12px;
+
+}
+
+#tabela-container{
+    margin-left: 12px;
+
+}
+
+th, td {
+    border: 1px solid #86004af5;
+    background-color: white;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #7d2e59f5;
+}
+
+body{
+    background-color: rgb(255, 248, 248);
+}
